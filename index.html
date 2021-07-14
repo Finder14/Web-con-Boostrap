@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">League of Legends </a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Mas <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Campeones</a></li>
+                  <li><a href="#">Roles</a></li>
+                  <li><a href="#">Skins</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Objetos</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Las mejores builds</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Iniciar sesion</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Opciones <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Registrate</a></li>
+                  <li><a href="#">Recuperar contraseña</a></li>
+                  <li><a href="#">Idioma</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Ayuda</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <section class="jumbotron">
+      <div class="cotainer">
+        <h1 class="titulo-blog">League of Fans</h1>
+        <p>¡Descubre todo acerca del juego League of legends!</p>
+      </div>
+    </section>
+
+    <section class="main container">
+      <div class="row">
+        <section class="posts col-md-9">
+          <div class="miga-de-pan">
+              <ol class="breadcrumb">
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Categorias</a></li>
+                  <li class="active">Noticias</li>
+              </ol>
+          </div>
+
+          <article class="post clearfix">
+            <a href="#" class="thumb pull-left">
+              <img class="img-thumbnail" src="img/img1.jpg" alt="">
+            </a>
+            <h2 class="post-title">
+              <a href="#">¡Descubre que posicion en el campo de batalla estas destinado a ocupar!</a>
+            </h2>
+            <p><span class="post-fecha">10 de Julio de 2021</span> por <span class="post-autor"><a href="#">Alexander Finol</a></span></p>
+            <p class="post-contenido text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="contenedor-botones">
+                <a href="#" class="btn btn-primary">Leer Mas</a>
+                <a href="#" class="btn btn-outline-success">comentarios <span class="badge">26</span></a>
+            </div>
+          </article>
+
+          <article class="post clearfix">
+              <a href="#" class="thumb pull-left">
+                <img class="img-thumbnail" src="img/img2.jpg" alt="">
+              </a>
+              <h2 class="post-title">
+                <a href="#">Descubre el sistema de rangos y como llegar al mas elevado</a>
+              </h2>
+              <p><span class="post-fecha">10 de Julio de 2021</span> por <span class="post-autor"><a href="#">Alexander Finol</a></span></p>
+              <p class="post-contenido text-justify">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+  
+              <div class="contenedor-botones">
+                  <a href="#" class="btn btn-primary">Leer Mas</a>
+                  <a href="#" class="btn btn-outline-success">comentarios <span class="badge">93</span></a>
+              </div>
+            </article>
+
+            <article class="post clearfix">
+                <a href="#" class="thumb pull-left">
+                  <img class="img-thumbnail" src="img/img3.jpg" alt="">
+                </a>
+                <h2 class="post-title">
+                  <a href="#">Encuentra a los mejores campeones para cada rol dentro del juego</a>
+                </h2>
+                <p><span class="post-fecha">10 de Julio de 2021</span> por <span class="post-autor"><a href="#">Alexander Finol</a></span></p>
+                <p class="post-contenido text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+    
+                <div class="contenedor-botones">
+                    <a href="#" class="btn btn-primary">Leer Mas</a>
+                    <a href="#" class="btn btn-outline-success">comentarios <span class="badge">283</span></a>
+                </div>
+              </article>
+
+              <nav>
+                <div class="center-block">
+                    <ul class="pagination">
+                        <li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&raquo;<span class="sr-only">Siguiente</span></a></li>
+                    </ul>
+                </div>
+              </nav>
+        </section>
+
+        <aside class="col-md-3 hidden-xs hidden-sm">
+            <h4>Categorias</h4>
+            <div class="list-group">
+                <a href="#" class="list-group-item active">Noticias</a>
+                <a href="#" class="list-group-item">Entrevistas al staff</a>
+                <a href="#" class="list-group-item">Riot Games</a>
+                <a href="#" class="list-group-item">Mas como esto</a>
+            </div>
+    
+            <h4>Articulos Recientes</h4>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group--item-heading">¡Nuevo evento centinelas de la luz!</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group--item-heading">Nuevo campeon Ashkan el centinela rebelde</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group--item-heading">Viego el rey arruinado trae la niebla negra</h4>
+                <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-6">
+                  <p>Alexander Finol-2021</p>
+              </div>
+              <div class="col-xs-6">
+                  <ul class="list-inline text-right">
+                      <li><a href="#">Inicio</a></li>
+                      <li><a href="#">Idioma</a></li>
+                      <li><a href="#">Contacto</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
